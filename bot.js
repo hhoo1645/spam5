@@ -23,13 +23,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits @!Ṅę𝓕ớ ,Huler#2204 100000')
+        message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
     if(message.content === '-ريب'){
-        message.channel.send('#credits @!Ṅę𝓕ớ ,Huler#2204 100000')
+        message.channel.send('#credits')
     }
 });
 
@@ -41,13 +41,13 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits @!Ṅę𝓕ớ ,Huler#2204 100000')
+        message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
     if(message.content === '-ريب'){
-        message.channel.send('#credits @!Ṅę𝓕ớ ,Huler#2204 100000')
+        message.channel.send('#credits')
     }
 });
 
