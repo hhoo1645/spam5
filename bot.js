@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const jackeo = ['' , '434327219310034954' , '' , '407244267984125972'];
+const jackeo = ['' , '487401195246321716' , '' , '407244267984125972'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -61,7 +61,7 @@ var prefix = "-";
 
   let args = message.content.split(" ").slice(1);
 
-  if (command === "3say")  {
+  if (command === "1say")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
